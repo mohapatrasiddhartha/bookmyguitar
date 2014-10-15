@@ -77,14 +77,14 @@
 	/**
 	 * Arranges footer widgets vertically.
 	 */
-	if ( $.isFunction( $.fn.masonry ) ) {
-		var columnWidth = body.is( '.sidebar' ) ? 228 : 245;
-
-		$( '#secondary .widget-area' ).masonry( {
-			itemSelector: '.widget',
-			columnWidth: columnWidth,
-			gutterWidth: 20,
-			isRTL: body.is( '.rtl' )
-		} );
-	}
+//	if ( $.isFunction( $.fn.masonry ) ) {
+//		var columnWidth = body.is( '.sidebar' ) ? 228 : 245;
+//
+//		$( '#secondary .widget-area' ).masonry( {
+//			itemSelector: '.widget',
+//			columnWidth: columnWidth,
+//			gutterWidth: 20,
+//			isRTL: body.is( '.rtl' )
+//		} );
+//	}
 } )( jQuery );
